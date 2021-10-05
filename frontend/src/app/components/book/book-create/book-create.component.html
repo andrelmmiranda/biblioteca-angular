@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-title>Novo Livro</mat-card-title>
+    <form action="">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Título" [(ngModel)]="book.title" name="title">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Autor" [(ngModel)]="book.author" name="author">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createBook()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()" color="warn">
+        Cancelar
+    </button>
+</mat-card>

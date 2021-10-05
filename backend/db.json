@@ -1,0 +1,19 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "author": "Lima Barreto",
+      "title": "Triste fim de Policarpo Quaresma"
+    },
+    {
+      "title": "O Cortiço",
+      "author": "Aluísio Azevedo",
+      "id": 2
+    },
+    {
+      "title": "Os Sertões",
+      "author": "Euclides da Cunha",
+      "id": 3
+    }
+  ]
+}
